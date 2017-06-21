@@ -4,9 +4,6 @@ LABEL Description="Ethereum GPU worker"
 
 ARG BINARY_PATH
 
-# RUN apt-get update
-# RUN apt-get install idn -y
-
 RUN mkdir ethminer
 WORKDIR ethminer
 
